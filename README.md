@@ -35,7 +35,7 @@ A modern, AI-powered learning platform for programming education.
 
 1. **Clone the repository**
 ```bash
-   git clone https://github.com/yourusername/Learning_platform.git
+   git clone https://github.com/Nencysorathiya12/CodeLearn.git
    cd Learning_platform
 ```
 
@@ -131,7 +131,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📞 Support
 
-For support, email support@codelearn.com or open an issue on GitHub.
+For support, email nencysorathiya1112@gmal.com.com or open an issue on GitHub.
 
 ## 🙏 Acknowledgments
 
@@ -140,5 +140,6 @@ For support, email support@codelearn.com or open an issue on GitHub.
 - PHPMailer for email functionality
 
 ---
+
 
 **Made with ❤️ for developers**
