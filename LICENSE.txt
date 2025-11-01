@@ -1,0 +1,156 @@
+```
+PROPRIETARY LICENSE
+
+Copyright (c) 2025 CodeLearn. All Rights Reserved.
+
+================================================================================
+NOTICE: This software and its source code are proprietary and confidential.
+================================================================================
+
+RESTRICTIONS:
+
+1. NO COPYING
+   You may NOT copy, reproduce, or duplicate this code in any form.
+
+2. NO MODIFICATION  
+   You may NOT modify, adapt, alter, or create derivative works from this code.
+
+3. NO DISTRIBUTION
+   You may NOT distribute, sublicense, sell, or transfer this code to anyone.
+
+4. NO COMMERCIAL USE
+   You may NOT use this code for any commercial purposes.
+
+5. VIEWING ONLY
+   This code is shared for portfolio/demonstration purposes only.
+   You may view the code but cannot use it in any way.
+
+================================================================================
+PERMITTED USE:
+================================================================================
+
+✅ View the code for learning purposes
+✅ Run the application on your local machine for testing
+❌ Copy, modify, distribute, or use in your own projects
+
+================================================================================
+LEGAL NOTICE:
+================================================================================
+
+Unauthorized copying, modification, distribution, or use of this software 
+is strictly prohibited and will result in legal action.
+
+All rights, including but not limited to intellectual property rights, 
+are exclusively reserved by CodeLearn.
+
+For licensing inquiries, contact: nencysorathiya1112@gmail.com
+
+================================================================================
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+THE AUTHOR SHALL NOT BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY.
+```
+
+**Save!**
+
+---
+
+## **🔒 OPTION 2: ALL RIGHTS RESERVED (STRICT)**
+```
+Copyright (c) 2024 CodeLearn
+
+ALL RIGHTS RESERVED
+
+This code is the exclusive property of CodeLearn.
+
+PROHIBITED ACTIONS:
+❌ Copying or reproducing the code
+❌ Modifying or adapting the code
+❌ Distributing or sharing the code
+❌ Using the code in any project (personal or commercial)
+❌ Reverse engineering
+❌ Creating derivative works
+
+PERMITTED ACTIONS:
+✅ Viewing the code for reference only
+
+This software is provided for demonstration purposes only.
+Any unauthorized use will be prosecuted to the fullest extent of the law.
+
+For permissions or licensing, contact: your.email@example.com
+```
+
+---
+
+## **🔒 OPTION 3: CUSTOM RESTRICTIVE LICENSE**
+```
+CUSTOM LICENSE AGREEMENT
+
+Copyright (c) 2025 CodeLearn
+Project: CodeLearn Learning Management System
+
+================================================================================
+LICENSE TERMS
+================================================================================
+
+This source code is made available for VIEWING PURPOSES ONLY.
+
+YOU ARE NOT ALLOWED TO:
+────────────────────────
+✗ Copy any part of this code
+✗ Use this code in your own projects
+✗ Modify or edit this code
+✗ Redistribute or share this code
+✗ Sell or commercialize this code
+✗ Remove copyright notices
+✗ Claim ownership of this code
+
+YOU ARE ALLOWED TO:
+───────────────────
+✓ View the code structure and logic
+✓ Learn from the implementation
+✓ Appreciate the work (leave a ⭐ if you like!)
+
+================================================================================
+PORTFOLIO/DEMONSTRATION NOTICE
+================================================================================
+
+This project is shared publicly as part of my professional portfolio to 
+demonstrate my coding skills and abilities. The code is displayed for 
+employers, recruiters, and the developer community to review.
+
+This does NOT grant any usage rights beyond viewing.
+
+================================================================================
+INTELLECTUAL PROPERTY
+================================================================================
+
+All intellectual property rights, including but not limited to:
+- Source code
+- Database structure  
+- UI/UX design
+- Documentation
+- Algorithms and logic
+
+...are exclusively owned by CodeLearn.
+
+================================================================================
+ENFORCEMENT
+================================================================================
+
+Violations of this license will result in:
+1. Immediate takedown notice
+2. DMCA complaint to hosting provider
+3. Legal action if necessary
+
+================================================================================
+CONTACT
+================================================================================
+
+For licensing inquiries or permissions:
+Email: nencysorathiya1112@gmail.com
+GitHub: @Nencysorathiya12
+
+================================================================================
+
+Last Updated: November 2025

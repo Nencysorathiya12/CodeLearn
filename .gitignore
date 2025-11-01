@@ -1,0 +1,151 @@
+# ==========================================
+# SENSITIVE FILES - NEVER UPLOAD
+# ==========================================
+
+# Database config with passwords
+config.php
+.env
+.env.local
+.env.production
+
+# Payment & API keys
+stripe_secret.php
+paypal_config.php
+api_keys.php
+
+# ==========================================
+# USER DATA - PRIVACY
+# ==========================================
+
+# Generated certificates (user data)
+certificates/*.pdf
+!certificates/.gitkeep
+
+# User uploads (profile pics, documents)
+uploads/*
+!uploads/.gitkeep
+
+# ==========================================
+# LOGS & DEBUG
+# ==========================================
+
+# All log files
+*.log
+error.log
+debug.log
+access.log
+php_errors.log
+
+# Debug files
+debug.php
+test-*.php
+test-*.html
+temp-*.php
+
+# ==========================================
+# BACKUPS
+# ==========================================
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.tmp
+*~
+*.swp
+*.swo
+
+# SQL backups
+*.sql.bak
+*.sql.backup
+
+# ==========================================
+# IDE & EDITOR
+# ==========================================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PhpStorm / IntelliJ
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ==========================================
+# OPERATING SYSTEM
+# ==========================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+.Trash-*
+
+# ==========================================
+# DEPENDENCIES (if using package managers)
+# ==========================================
+
+# Composer (PHP)
+/vendor/
+composer.lock
+composer.phar
+
+# NPM / Node
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# ==========================================
+# COMPILED & CACHE
+# ==========================================
+
+# PHP cache
+*.cache
+cache/
+tmp/
+temp/
+
+# Session files
+sessions/
+*.sess
+
+# Compiled files
+*.compiled
+
+# ==========================================
+# MISC
+# ==========================================
+
+# Archives
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# Office files
+~$*

@@ -1,0 +1,11 @@
+echo. > C:\xampp\htdocs\Learning_platform\certificates\.gitkeep
+echo. > C:\xampp\htdocs\Learning_platform\uploads\.gitkeep
+```
+
+---
+
+## **🗄️ STEP 5: EXPORT DATABASE**
+
+**Open phpMyAdmin:**
+```
+http://localhost/phpmyadmin

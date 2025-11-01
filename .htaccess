@@ -1,0 +1,109 @@
+# ==========================================
+# CodeLearn LMS - Apache Configuration
+# ==========================================
+
+# Enable Rewrite Engine
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /Learning_platform/
+
+    # Force HTTPS (Enable only on production with SSL)
+    # RewriteCond %{HTTPS} off
+    # RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+    # Remove www (optional)
+    # RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+    # RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+    # Allow direct access to existing files
+    RewriteCond %{REQUEST_FILENAME} -f
+    RewriteRule ^ - [L]
+
+    # Allow direct access to existing directories
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^ - [L]
+
+    # Route all other requests to index.php
+    RewriteRule ^(.*)$ index.php?page=$1 [QSA,L]
+</IfModule>
+
+# ==========================================
+# Security Headers
+# ==========================================
+
+# Prevent directory browsing
+Options -Indexes
+
+# Disable server signature
+ServerSignature Off
+
+# Block access to sensitive files
+<FilesMatch "\.(env|sql|log|ini|bak|backup|old|txt)$">
+    Require all denied
+</FilesMatch>
+
+# Protect config.php
+<Files "config.php">
+    Require all denied
+</Files>
+
+# Protect .htaccess itself
+<Files ".htaccess">
+    Require all denied
+</Files>
+
+# Protect git files
+<FilesMatch "^\.git">
+    Require all denied
+</FilesMatch>
+
+# ==========================================
+# PHP Settings
+# ==========================================
+
+<IfModule mod_php7.c>
+    # Maximum execution time
+    php_value max_execution_time 300
+    
+    # Maximum input time
+    php_value max_input_time 300
+    
+    # Maximum post size
+    php_value post_max_size 50M
+    
+    # Maximum upload file size
+    php_value upload_max_filesize 50M
+    
+    # Memory limit
+    php_value memory_limit 256M
+    
+    # Session settings
+    php_value session.cookie_httponly 1
+    php_value session.cookie_secure 0
+    php_value session.use_only_cookies 1
+    
+    # Disable dangerous functions
+    php_value disable_functions "exec,passthru,shell_exec,system,proc_open,popen"
+    
+    # Hide PHP version
+    php_flag expose_php Off
+</IfModule>
+
+# ==========================================
+# MIME Types
+# ==========================================
+
+<IfModule mod_mime.c>
+    AddType application/javascript js
+    AddType text/css css
+    AddType image/svg+xml svg svgz
+    AddType application/vnd.ms-fontobject eot
+    AddType font/ttf ttf
+    AddType font/otf otf
+    AddType font/woff woff
+    AddType font/woff2 woff2
+</IfModule>
+
+# ==========================================
+# Compression
+# ==========================================
